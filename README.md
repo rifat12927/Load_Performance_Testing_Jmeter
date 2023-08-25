@@ -5,17 +5,17 @@ Dear viewers,
 I’ve completed performance test on frequently used API for test App. 
 Test executed for the below mentioned scenario in server 000.000.000.00. 
 
-1400 Concurrent Request with 0 Loop Count; Avg TPS for Total Samples is ~ 140 And Total Concurrent API requested: 8400 Error Rate  0%.
+1400 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 140 And Total Concurrent API requested: 8400 Error Rate  0%.
 
-1800 Concurrent Request with 0 Loop Count; Avg TPS for Total Samples is ~ 178  And Total Concurrent API requested: 10800 Error Rate  0%.
+1800 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 178  And Total Concurrent API requested: 10800 Error Rate  0%.
 
-2200 Concurrent Request with 0 Loop Count; Avg TPS for Total Samples is ~ 188 And Total Concurrent API requested: 13200 Error Rate  0.76% .
+2200 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 188 And Total Concurrent API requested: 13200 Error Rate  0.76% .
 
-2600 current Request with 0 Loop Count; Avg TPS for Total Samples is ~ 249 And Total Concurrent API requested: 15600 Error Rate  0%.
+2600 current Request with 1 Loop Count; Avg TPS for Total Samples is ~ 249 And Total Concurrent API requested: 15600 Error Rate  0%.
 
-3000 Concurrent Request with 0 Loop Count; Avg TPS for Total Samples is ~ 288 And Total Concurrent API requested: 18000 Error Rate  0% .
+3000 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 288 And Total Concurrent API requested: 18000 Error Rate  0% .
 
-3500 Concurrent Request with 0 Loop Count; Avg TPS for Total Samples is ~ 305 And Total Concurrent API requested: 21000 Error Rate  0.08% .
+3500 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 305 And Total Concurrent API requested: 21000 Error Rate  0.08% .
 
 While executed 3500 concurrent request, found  16 request got connection timeout and error rate is 0.08%. 
 
